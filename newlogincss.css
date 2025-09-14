@@ -1,0 +1,104 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  /* Container */
+  .container {
+    position: relative;
+    width: 400px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    color: white;
+  }
+  
+  /* Heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #ddd;
+    transform: translateY(-50%);
+    transition: 0.3s ease;
+  }
+  
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label {
+    top: -5px;
+    font-size: 12px;
+    color: #00f7ff;
+  }
+  
+  /* Options */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .options a {
+    color: #00f7ff;
+    text-decoration: none;
+  }
+  
+  /* Button */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #00f7ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #00cfd6;
+  }
+  
+  /* Register */
+  .register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .register-text a {
+    color: #00f7ff;
+    text-decoration: none;
+  }
+  
