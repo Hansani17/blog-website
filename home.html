@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chingu Critics | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f8ff;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 16px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1e3c72;
+            padding: 12px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #00f7ff;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+            color: white;
+        }
+
+        .hero h2 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        /* Featured Reviews */
+        .section-title {
+            text-align: center;
+            margin-top: 50px;
+            color: #2575fc;
+            font-size: 26px;
+        }
+
+        .reviews {
+            width: 85%;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+            color: #1e3c72;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .read-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #2575fc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .read-btn:hover {
+            background-color: #6a11cb;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Chingu Critics</h1>
+        <p>Authentic & Honest K-Drama Reviews</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="crash landing on you review.html">Reviews</a>
+        <a href="#">Top Rated</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Discover Your Next Favorite K-Drama</h2>
+        <p>In-depth reviews, ratings, and recommendations.</p>
+    </section>
+
+    <h2 class="section-title">Featured Reviews</h2>
+
+    <div class="reviews">
+
+        <div class="card">
+            <img src="crash landing on you.jpg" alt="Crash Landing on You">
+            <div class="card-content">
+                <h3>Crash Landing on You</h3>
+                <p>A cross-border love story filled with emotion, tension, and unforgettable chemistry.</p>
+                <a href="#" class="read-btn">Read Review</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="dotsh.jpg" alt="Descendants of the Sun">
+            <div class="card-content">
+                <h3>Descendants of the Sun</h3>
+                <p>Military romance blended with action, loyalty, and heartfelt storytelling.</p>
+                <a href="#" class="read-btn">Read Review</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="hapiness.jpg" alt="Hapiness">
+            <div class="card-content">
+                <h3>Hapiness</h3>
+                <p>Set in an infected high-rise apartment, Happiness is a gripping zombie thriller that mixes survival, suspense, and a slow-burn romance in the middle of chaos.</p>
+                <a href="#" class="read-btn">Read Review</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Chingu Critics. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
